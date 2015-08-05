@@ -25,7 +25,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->  
 	
-	
+	<link rel=" icon" type="image/png " href=" ToKim.png" />
 	<script>
 
 
@@ -804,58 +804,8 @@ a:hover {
 		<br></br>
 		</ol>
 		
-<script type="text/javascript">
-// Author: ricocheting.com
-// Description: slideshow that allows visitors to flip through a series of images on your website
 
-
-var x=0;
-
-
-function rotate(num){
-fs=document.ff.slide;
-x=num%fs.length;
-if(x<0) x=fs.length-1;
-document.images.show.src=fs.options[x].value;
-fs.selectedIndex=x;}
-
-
-function auto() {
-if(document.ff.fa.value == "Stop"){
-rotate(++x);setTimeout("auto()", 5000);}}
-</script>
-
-
-<form name="ff">
-<table cellpadding="3" style="border:1px black solid;border-collapse:collapse;">
-<tr><th align="center">Stroke Picture Instructions</th></tr>
-
-
-<tr><td align="center">
-<img src="http://pad1.whstatic.com/images/thumb/c/ca/Determine-if-a-Cut-Needs-Stitches-Step-1.jpg/550px-Determine-if-a-Cut-Needs-Stitches-Step-1.jpg" name="show">
-</td></tr>
-
-
-<tr><td align="center" style="border:1px black solid;">
-<select name="slide" onChange="rotate(this.selectedIndex);">
-<option value="http://pad1.whstatic.com/images/thumb/c/ca/Determine-if-a-Cut-Needs-Stitches-Step-1.jpg/550px-Determine-if-a-Cut-Needs-Stitches-Step-1.jpg">Put pressure on the cut with cloth</option>
-<option value="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/caring_for_wounds_slideshow/getty_rf_photo_of_hand_under_running_water.jpg">Apply cool water to the cut</option>
-<option value="http://cache.gawkerassets.com/assets/images/17/2010/05/500x_hands.jpg">Clean your the area around your wounds</option>
-<option value="https://webstergardenschurch.files.wordpress.com/2011/06/prayer-father-bandaid.jpg">Put a bandaid on the wound so it doesn't get infected</option>
-</select>
-</td></tr>
-
-
-<tr><td align="center" style="border:1px black solid;">
-<input type="button" onclick="rotate(0);" value="ll&lt;&lt;" title="Jump to beginning" />
-<input type="button" onclick="rotate(x-1);" value="&lt;&lt;" title="Last Picture" />
-<input type="button" name="fa" onClick="this.value=((this.value=='Stop')?'Start':'Stop');auto();" value="Start" title="Autoplay" style="width:75px;" />
-<input type="button" onclick="rotate(x+1);" value="&gt;&gt;" title="Next Picture" />
-<input type="button" onclick="rotate(this.form.slide.length-1);" value="&gt;&gt;ll" title="Jump to end" />
-</td></tr></table></form>
-
- <div align="center"><a href ='MobileEmergencySituation.html'> <button type= "button" style="border-radius:20px; margin-top:5vw; height:6vw; width:30vw; color:black; font-size:3vw; font:Garamond; font-weight:bold;">BACK </button></a></div>
-
+ <div align="center"><a href ='MobileEmergencySituation.html'> <button type= "button" style="border-radius:20px; margin-top:5vw; height:6vw; width:30vw; align:center; color:black; font-size:3vw; font:Garamond; font-weight:bold;">BACK </button></a></div>
 	</div>
 </body>
 </html>
